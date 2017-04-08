@@ -3,7 +3,7 @@ description: My personal website
 author: Tho Le
 github: https://github.com/tom-tin
 about: Ph.D. candidate in EECS at Northwestern. Looking for a job in data science.
-disqus_shortname: stackproblems
+disqus_shortname: thole
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/face.jpg
 
@@ -43,7 +43,7 @@ urls:
       url: /feed.xml
 
 
-url: "https://thonle.github.io/"
+url: "https://tom-tin.github.io/"
 baseurl: ""
 paginate: 20
 per_page: 20
