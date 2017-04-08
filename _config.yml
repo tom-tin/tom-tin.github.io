@@ -1,11 +1,11 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
+title: Tho Le
+description: My personal website
+author: Tho Le
+github: https://github.com/thonle
+about: Ph.D. candidate in EECS at Northwestern. Looking for a job in data science.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/face.jpg
 
 enableTags: true
 tagarray: []
@@ -17,29 +17,33 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "#"
+      #link: "#"  #putting "#" points back to "http://127.0.0.1:4000/#"
+      link: "https://www.facebook.com/thongocle"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
+      link: "https://twitter.com/thokata"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
+      link: "https://www.linkedin.com/in/tho-le-66002859/"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/tom-tin"
 
 share:
-  twitter_username: agusmakmun6
+  twitter_username: tom-tin
   fb_appid: 1749788565247320
 
 urls:
     - text: About Me
       url: /about/
+    - text: My publications
+      url: /publications/
     - text: My Projects
       url: /projects/
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+
+url: "https://thonle.github.io/"
 baseurl: ""
 paginate: 20
 per_page: 20
