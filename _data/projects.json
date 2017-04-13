@@ -1,16 +1,16 @@
 [
 	{
 		"slug": "cool-project",
-		"name": "Information Cascades with Noise",
+		"name": "Information Cascades with Observation Noise",
 		"image": "wel_limit_high_low1.png",
 		"url": "https://www.google.com",
 		"date": "2014-2017",
 		"tags": ["Cascade","Markov chain","MATLAB"]
 	},
 	{
-		"name": "Imperfect Reviews",
+		"name": "Information Cascades with Imperfect Reviews",
 		"image": "Revews_MC.png",
-		"url": "#",
+		"url": "https://github.com/tom-tin/info_cas_imper_rev",
 		"date": "2016-2017",
 		"tags": ["Cascade","Markov chain","Martingale","MATLAB","Python"]
 	}
