@@ -13,5 +13,12 @@
 		"url": "https://github.com/tom-tin/info_cas_imper_rev",
 		"date": "2016-2017",
 		"tags": ["Cascade","Markov chain","Martingale","MATLAB","Python"]
+	},
+	{
+		"name": "Studying Information Cascades on Amazon dataset",
+		"image": "Amazon.png",
+		"url": "https://github.com/tom-tin/Amazon.git",
+		"date": "2017",
+		"tags": ["Cascade","Amazon", "Online Reviews", "data", "Python"]
 	}
 ]
