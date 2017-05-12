@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Solving a simple Multi-arm Bandits problem using Markov Decision Processes"
-date:   2017-05-12 18:34:10 +0700
+date:   2017-05-10 18:34:10 +0700
 categories: [python, Multi-arm Bandits (MABs), Markov Decision Processes (MDPs)]
 ---
 
@@ -150,7 +150,8 @@ if __name__ == "__main__":
 
 _Reference:_ Adapted from the following:
 
-1) Class OPNS525: Statistical Learning in Sequential Decision Making at Northwestern by Prof. Daniel Russo.
+1) Class OPNS525: 
+[Statistical Learning in Sequential Decision Making](http://djrusso.github.io/teaching.html/) at Northwestern by Prof. Daniel Russo.
 
 2) Online class: 
 [Bayesian Machine Learning in Python: A/B Testing.](https://www.udemy.com/bayesian-machine-learning-in-python-ab-testing/)
