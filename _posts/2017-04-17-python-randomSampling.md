@@ -88,28 +88,6 @@ class Stream(object):
         return self.n 
 ~~~
 
-
-~~~python
-#Assume we have a Stream object with the following methods:
-class Stream(object):
-    def __init__(self, n):# n is the current length of the stream
-        self.n = n
-
-    def hasNext(self):#return 1 if the stream continues
-        #assume the stream end at 100 (unknown to user)
-        return 1 if self.n <= 100 else 0
-    
-    def getNext(self):#return a random next number
-        #assume the streamn consists of numbers 0,1,...,9
-        return random.randrange(10) if self.hasNext() else None
-    
-    def update(self):#increase the stream length by 1
-        self.n += 1
-        
-    def leng(self): #return length of current stream
-        return self.n 
-~~~
-
 #### Now, let's run the experiment:
 
 ~~~python
