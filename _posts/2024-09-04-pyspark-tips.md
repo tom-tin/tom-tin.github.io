@@ -13,5 +13,3 @@ from pyspark.sql.functions import *
 col_null_cnt_df =  df.select([count(when(col(c).isNull(),c)).alias(c) for c in df.columns])
 display(col_null_cnt_df)
 ~~~
-
-----------------
