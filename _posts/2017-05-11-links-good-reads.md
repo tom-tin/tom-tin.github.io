@@ -2,7 +2,7 @@
 layout: post
 title:  "Reading lists"
 date:   2017-05-11 12:01:16
-ccategories: [links, articles, good-reads]
+categories: [links, articles, good-reads]
 ---
 
 
