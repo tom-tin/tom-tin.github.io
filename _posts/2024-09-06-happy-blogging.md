@@ -2,9 +2,9 @@
 layout: post
 title:  "Happy blogging!"
 date:   2024-09-06 12:01:16
-categories: []
+categories: [non-technical, sharing]
 ---
-After seven years, I feel like blogging again! I first created this blog during the final phase of my Ph.D. program at Northwestern. I figured this would help boost my profile a bit to get into the job market at that time. Of course, this is the advice I've got from the senior fellows and others on the Internet. I got my first job offer and I doubted that the hiring managers cared about reading these. Time flies. I was so busy and there was not much motivation to continue writing and sharing on this platform.
+After seven years, I feel like blogging again! I first created this blog during the final phase of my Ph.D. program at Northwestern. I figured this would help boost my profile a bit to get into the job market at that time. Of course, this is the advice I've got from the senior fellows and others on the Internet. I got my first job offer and I doubted that the hiring managers cared about reading these. Time flies. I was too busy and there was not much motivation to continue writing and sharing on this platform.
 
 I am at the point of getting more experience in the field of data science. After all those years in this field, I've learned a lot from reading other blogs and I am very thankful. I used to keep a personal note of the things I've learned in a Google document. Gradually, that Google Doc was getting too long and I had to divide it into four separate documents. Most of my notes were not well-organized because it was intended for myself only.  
 
