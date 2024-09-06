@@ -4,6 +4,7 @@ title:  "Pyspark - A few useful code snippets"
 date:   2024-09-04 18:34:10 +0700
 categories: [python, example]
 ---
+<span style="color:blue">I will keep adding more tips as I found them useful.</span>
 
 ### Exploring data
 * Find the number of nulls for all cols
