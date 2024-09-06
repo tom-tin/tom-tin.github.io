@@ -2,7 +2,7 @@
 layout: post
 title:  "Happy Blogging"
 date:   2024-09-05 18:34:10 +0700
-categories: [python, example]
+categories: [misc, non-tech]
 ---
 
 After seven years, I feel like blogging again! I first created this blog during the final phase of my Ph.D. program at Northwestern. I figured this would help boost my profile a bit to get into the job market at that time. Of course, this is the advice I've got from the senior fellows and others on the Internet. I got my first job offer and I doubted that the hiring managers cared about reading these. Time flies. I was too busy and there was not much motivation to continue writing and sharing on this platform.
