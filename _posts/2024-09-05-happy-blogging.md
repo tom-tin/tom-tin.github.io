@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Happy Blogging"
-date:   2024-09-06 18:34:10 +0700
+date:   2024-09-05 18:34:10 +0700
 categories: [python, example]
 ---
 
