@@ -23,7 +23,6 @@ I joined Northwestern University in September 2012 as a doctoral student under t
 
 My work at Northwestern includes studying bandwagon-type effects for models of Bayesian observational learning in social networks, which resembled many online recommendation systems (Amazon, Yelps, etc.). We studied models under different information structures and discovered many interesting, non-intuitive results: while noisy observations could help customers in their learning processes, additional information such as customers’ reviews/feedback could worsen their purchasing decisions. The main techniques used were hypothesis testing, Markov analysis, random walks, martingales processes and Monte-Carlo simulation. In addition, my research interest includes data science, machine learning, probabilistic models, game theory, quantitative finances, and optimization and resources allocation in communications networks.
 
-<span style="color:blue">**I am expected to graduate in June/August 2017. I am looking for a full-time data scientist position.**</span>
 
 Contact me at:
 
