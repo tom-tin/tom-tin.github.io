@@ -1,1 +1,1 @@
-This folder is to store sample ML projects
+This folder is to store documentations for sample ML projects
