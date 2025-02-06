@@ -24,7 +24,7 @@ Bottom line:
 # Get Started
 - https://ai.azure.com/ --> Sign in --> Create a new project.
 
-# Learning sources
+# Learning resources
 - [Azure AI Foundry documentation](https://learn.microsoft.com/en-us/azure/ai-studio/)
   - The ULR is actually "ai-studio". Hence I think it is just an upgrade of Azure AI Studio.
 - [The next wave of Azure innovation: Azure AI Foundry](https://azure.microsoft.com/en-us/blog/the-next-wave-of-azure-innovation-azure-ai-foundry-intelligent-data-and-more/)
