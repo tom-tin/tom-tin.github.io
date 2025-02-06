@@ -7,6 +7,6 @@ categories: [cloud, azure, ai]
 
 # A quick comparison by ChatGPT
 Bottom line:
--Use Azure AI Foundry if you need pre-trained foundation models & AI agent development
--Use Azure ML Studio if you want to train custom ML models from scratch
--Use Azure AI Studio if you want to fine-tune pre-trained AI models for applications
+- Use Azure AI Foundry if you need pre-trained foundation models & AI agent development
+- Use Azure ML Studio if you want to train custom ML models from scratch
+- Use Azure AI Studio if you want to fine-tune pre-trained AI models for applications
