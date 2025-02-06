@@ -10,3 +10,14 @@ Bottom line:
 - Use Azure AI Foundry if you need pre-trained foundation models & AI agent development
 - Use Azure ML Studio if you want to train custom ML models from scratch
 - Use Azure AI Studio if you want to fine-tune pre-trained AI models for applications
+
+| Feature                  | **Azure AI Foundry**         | **Azure ML Studio**            | **Azure AI Studio**         |
+|--------------------------|----------------------------|-------------------------------|----------------------------|
+| **Use Case**             | AI application development | ML model training & deployment | AI model fine-tuning & deployment |
+| **Target Audience**      | Developers, enterprises    | Data scientists, ML engineers  | Developers, data scientists |
+| **Custom Models?**       | No (uses pre-trained models) | Yes (train from scratch)      | Yes (fine-tuning)          |
+| **Foundation Models?**   | Yes (OpenAI, Meta, etc.)   | No (builds custom models)     | Yes (GPT, DALL-E, etc.)    |
+| **Low-Code Support?**    | Yes                         | Yes (AutoML, drag-drop UI)    | Yes                        |
+| **Governance & Security?** | High                        | High                           | Moderate                   |
+| **Best For**             | AI-powered applications    | Predictive ML analytics       | AI model fine-tuning       |
+
