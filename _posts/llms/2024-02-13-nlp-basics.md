@@ -17,4 +17,5 @@ categories: [ai, llms, nlp, nn]
 
 ## LSTM Resources
 - Understanding the LSTM Layer. [Linkedin post](https://www.linkedin.com/feed/update/groupPost:961087-7290418174666162177/).
+- [Stanford course CS224N: NLP with DL](https://web.stanford.edu/class/cs224n/).
 
