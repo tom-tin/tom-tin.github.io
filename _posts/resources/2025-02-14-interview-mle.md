@@ -4,7 +4,8 @@ title:  "Interview Resources - Machine Learning Engineer (MLE)"
 date:   2025-02-14 14:00:00 +0700
 categories: [data, resources, interviews, MLE]
 ---
-# Articles
+
+## Articles
 - [How I Cracked the Meta Machine Learning Engineering Interview](https://medium.com/towards-data-science/how-i-cracked-the-meta-machine-learning-engineering-interview-aa32f64b8e4b)
   - Coding: 3 rounds = 6 questions. Medium Leetcode. Check out Leetcode top-10 Facebook-tagged questions.
     - Communicate clearly: (1) understanding (2) describe algo and complexity at a high level (3) implement (4) test
@@ -14,7 +15,7 @@ categories: [data, resources, interviews, MLE]
     - ML system design: solve a problem with ML, e.g. build a classification system or a rec system.
    
 
-# System Design
+## System Design
 
 ### Tips
 - Be proactive: you have to be the one to drive the conversation.
