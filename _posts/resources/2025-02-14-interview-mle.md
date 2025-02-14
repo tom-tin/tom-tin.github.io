@@ -15,11 +15,11 @@ categories: [data, resources, interviews, MLE]
    
 
 # System Design
-## Tips
+### Tips
 - Be proactive: you have to be the one to drive the conversation.
 - Outline: (1) clarify the problem (2) propose a high-level design (3) draw out the design (4) zoom into certain components
 - Practice drawing: [Excalidraw](https://excalidraw.com/).
-## Resources
+### Resources
 - Educative's [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview).
   - Lessons can be good/bad. Focus: REST API, load balancing, communication models. 
 - Educative's [Grokking the Machine Learning Interview](https://www.educative.io/courses/grokking-the-machine-learning-interview).
