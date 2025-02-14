@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Interview Resources"
+title:  "Interview Resources - Machine Learning Engineer (MLE)"
 date:   2025-02-14 14:00:00 +0700
-categories: [data, resources, interviews]
+categories: [data, resources, interviews, MLE]
 ---
-# Data Scientists
-
-# Machine Learning Engineers (MLEs)
+# Articles
 - [How I Cracked the Meta Machine Learning Engineering Interview](https://medium.com/towards-data-science/how-i-cracked-the-meta-machine-learning-engineering-interview-aa32f64b8e4b)
   - Coding: 3 rounds = 6 questions. Medium Leetcode. Check out Leetcode top-10 Facebook-tagged questions.
     - Communicate clearly: (1) understanding (2) describe algo and complexity at a high level (3) implement (4) test
@@ -16,11 +14,39 @@ categories: [data, resources, interviews]
     - ML system design: solve a problem with ML, e.g. build a classification system or a rec system.
    
 
-# System Design resources
+# System Design
+## Tips
+- Be proactive: you have to be the one to drive the conversation.
+- Outline: (1) clarify the problem (2) propose a high-level design (3) draw out the design (4) zoom into certain components
+- Practice drawing: [Excalidraw](https://excalidraw.com/).
+## Resources
 - Educative's [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview).
+  - Lessons can be good/bad. Focus: REST API, load balancing, communication models. 
 - Educative's [Grokking the Machine Learning Interview](https://www.educative.io/courses/grokking-the-machine-learning-interview).
 - Alex Xu's system design on YouTube channel [ByteByteGo](https://www.youtube.com/c/ByteByteGo).
-- Chip Huyen's [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) book.
-- Samuel Flender's ebook [Machine Learning on the Ground: Design and Operations of Real-World ML Applications](https://samflender.gumroad.com/l/mlontheground)
+- Chip Huyen's [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) book. [Website](https://huyenchip.com/machine-learning-systems-design/toc.html).
+- Samuel Flender's ebook [Machine Learning on the Ground: Design and Operations of Real-World ML Applications](https://samflender.gumroad.com/l/mlontheground). 50 pages. 
 - Research papers: Eugene Yan's [list of curated papers](https://applyingml.com/papers/). Selected papers:
   - [Amazon Search: The Joy of Ranking Products](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf).
+  - [Deep Natural Language Processing for LinkedIn Search Systems](https://arxiv.org/pdf/2108.08252.pdf).
+  - [Embedding-based Retrieval in Facebook Search](https://arxiv.org/pdf/2006.11632.pdf).
+  - [Deep learning for recommender systems: A Netflix case study](https://ojs.aaai.org/index.php/aimagazine/article/view/18140).
+  - [Wide & Deep Learning for Recommender Systems](http://wide%20&%20deep%20learning%20for%20recommender%20systems/).
+  - [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf).
+  - [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031).
+  - [150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](https://booking.ai/150-successful-machine-learning-models-6-lessons-learned-at-booking-com-681e09107bec).
+ 
+# Behavior
+## Tips
+- Use STAR method: Situation/Task: what's the problem. Action: what initiative did you take and why? Result?
+- You can resuse the same situation but highlight a different facet.
+- You can exaggerate within reason.
+## Example questions
+- What project are you most proud of?
+- How did you handle conflict / disagreement with a colleague?
+- Tell me me about a time when you took initiative.
+- Tell me about a time where you started collaboration across teams.
+- Tell me about a time when you had competing priorities.
+- Tell me about a time when business requirements changed and you had to adapt.
+- Tell me about a time you accepted feedback from your manager.
+- Tell me about a time when the problem you were solving was ambiguous.
