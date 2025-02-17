@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NLP Basics"
+title:  "NLP - LLMs - Basics"
 date:   2025-02-13 11:00:00 +0700
 categories: [ai, llms, nlp, nn]
 ---
