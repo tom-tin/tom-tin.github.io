@@ -4,6 +4,10 @@ title:  "NLP Basics"
 date:   2025-02-13 11:00:00 +0700
 categories: [ai, llms, nlp, nn]
 ---
+
+## LLMs Explaining
+- [LLM Visualization](https://bbycroft.net/llm). A great website to show how LLM works.
+
 ## LSTM Explaining
 - Specifically designed to avoid the vanishing and exploding gradients problem.
   - Thanks to a gated structure and the "constant error carousel" (where the backpropagation of the errors can decay slowly over many steps).   
