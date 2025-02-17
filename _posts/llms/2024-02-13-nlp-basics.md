@@ -8,6 +8,9 @@ categories: [ai, llms, nlp, nn]
 ## LLMs Explaining
 - [LLM Visualization](https://bbycroft.net/llm). A great website to show how LLM works.
 
+## Transformers Explaining
+- [Explaining Transformers as Simple as Possible through a Small Language Model](https://pub.towardsai.net/explaining-transformers-as-simple-as-possible-through-a-small-language-model-6e6038941ca7)
+
 ## LSTM Explaining
 - Specifically designed to avoid the vanishing and exploding gradients problem.
   - Thanks to a gated structure and the "constant error carousel" (where the backpropagation of the errors can decay slowly over many steps).   
