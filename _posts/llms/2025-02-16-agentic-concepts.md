@@ -5,6 +5,9 @@ date:   2025-02-16 11:00:00 +0700
 categories: [ai, llms, agent]
 ---
 
+## Courses
+- [Fundamentals of Agents](https://huggingface.co/learn/agents-course/en/unit0/introduction) (by Hugging Face). lib: smolagents, LangChain, LlamaIndex.
+
 ## Why bother?
 - [Why Agentic RAG over traditional RAG](https://www.facebook.com/groups/miaigroup/permalink/1827814437989820/?mibextid=wwXIfr&rdid=E4rFMY51Tqh1fgpS&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F18m3S6gThA%2F%3Fmibextid%3DwwXIfr#)?
   - Traditional RAG:
@@ -43,8 +46,7 @@ categories: [ai, llms, agent]
   - Haystack: building search and QA pipelines.   
 
 
-## Courses
-- [Fundamentals of Agents](https://huggingface.co/learn/agents-course/en/unit0/introduction) (by Hugging Face). lib: smolagents, LangChain, LlamaIndex.
+
 
 ## Resources
 - RPA vs Agentic Process Automation (APA) vs AI Agents. [Fb post](https://www.facebook.com/groups/cto.platform/permalink/2062130487566316/?mibextid=wwXIfr&rdid=8S1pmvmcZ9mHF1JV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1HqGSo4yQn%2F%3Fmibextid%3DwwXIfr#).
