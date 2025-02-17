@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tools for Documents Summarization/Analysis"
+title:  "AI Tools for Documents Summarization/Analysis"
 date:   2025-02-16 11:00:00 +0700
 categories: [ai, llms, summarize, tool]
 ---
@@ -36,4 +36,6 @@ categories: [ai, llms, summarize, tool]
 ## Citations
 - Zotero. Mendeley. EndNote.
 
-  
+## Presentation
+- [How to use ChatGPT to create a presentation](https://www.facebook.com/groups/vietnam.market.report/permalink/1565156021109020/?mibextid=wwXIfr&rdid=pYvv6QYYoV3YZNKu&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1LURr1D4Xt%2F%3Fmibextid%3DwwXIfr#)
+
