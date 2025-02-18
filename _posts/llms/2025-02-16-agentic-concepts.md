@@ -45,7 +45,8 @@ categories: [ai, llms, agent]
   - DSPy: LLM prompt engineering and chaining
   - Haystack: building search and QA pipelines.   
 
-
+## Agentic Startups
+- [The Rise of the Agentic Workforce](https://www.tanayj.com/p/the-rise-of-the-agentic-workforce).
 
 
 ## Resources
