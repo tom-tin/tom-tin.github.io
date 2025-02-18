@@ -5,11 +5,16 @@ date:   2025-02-13 11:00:00 +0700
 categories: [ai, llms, nlp, nn]
 ---
 
+## Reasoning LLMs
+- [Understanding Reasoning LLMs](https://sebastianraschka.com/blog/2025/understanding-reasoning-llms.html) - Methods and Strategies for Building and Refining Reasoning Models.
+
+
 ## LLMs Explaining
 - [LLM Visualization](https://bbycroft.net/llm). A great website to show how LLM works.
 
 ## Transformers Explaining
 - [Explaining Transformers as Simple as Possible through a Small Language Model](https://pub.towardsai.net/explaining-transformers-as-simple-as-possible-through-a-small-language-model-6e6038941ca7)
+- [How Transformer LLMs Work](https://www.deeplearning.ai/short-courses/how-transformer-llms-work/) (course by DeepLearning.AI). Instructor: Jay Alammar, Maarten Grootendorst.
 
 ## LSTM Explaining
 - Specifically designed to avoid the vanishing and exploding gradients problem.
