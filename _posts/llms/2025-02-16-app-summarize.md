@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AI Tools for Documents Summarization/Analysis"
+title:  "AI Tools for Analysis"
 date:   2025-02-16 11:00:00 +0700
 categories: [ai, llms, summarize, tool]
 ---
@@ -24,6 +24,7 @@ categories: [ai, llms, summarize, tool]
 
 ## Literature Search
 -  PubMed (free, mostly for bio field). Google Scholar. Elicit (AI app, find papers, extract data, summarize, brainstorm).
+-  [ChatGPT for Research and Publication: A Step-by-Step Guide](https://pmc.ncbi.nlm.nih.gov/articles/PMC10731938/).
 
 
 
