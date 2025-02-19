@@ -54,3 +54,5 @@ categories: [ai, llms, agent]
 
 ## Resources
 - RPA vs Agentic Process Automation (APA) vs AI Agents. [Fb post](https://www.facebook.com/groups/cto.platform/permalink/2062130487566316/?mibextid=wwXIfr&rdid=8S1pmvmcZ9mHF1JV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1HqGSo4yQn%2F%3Fmibextid%3DwwXIfr#).
+- [5 most popular Agentic design patterns](https://www.facebook.com/groups/miaigroup/permalink/1816090442495553/?mibextid=wwXIfr&rdid=bNSHYgTjoNUJBey8&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F18LAyEDsX4%2F%3Fmibextid%3DwwXIfr#).
+- [LangChain Alternatives You Can Use to Build AI and Agentic Workflows](https://www.freecodecamp.org/news/langchain-alternatives-for-building-ai-and-agentic-workflows/)
