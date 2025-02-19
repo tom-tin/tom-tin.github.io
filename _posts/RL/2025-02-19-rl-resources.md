@@ -42,4 +42,5 @@ https://www.anthropic.com/research/reward-tampering
   2. From Liquid Neural Networks to Liquid Foundation Models: This research delves into liquid neural networks, a class of brain-inspired systems that remain adaptable and robust even after training.
 https://www.liquid.ai/research/liquid-neural-networks-research
 
-
+## Other resources
+- [Reddit's extensive list](https://www.reddit.com/r/reinforcementlearning/comments/zi7qae/best_reinforcement_learning_course/?rdt=58908).
