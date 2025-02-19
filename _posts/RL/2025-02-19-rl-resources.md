@@ -8,8 +8,8 @@ categories: [ai, reinforcement learning]
 - Reinforcement Learning: An Introduction" by Richard S. Sutton and Andrew G. Barto: Classic RL book. https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf
 
 ## Courses
-- Hugging Face's Deep RL Course: A free, open-source course that guides learners from beginner to expert in deep reinforcement learning. https://lnkd.in/gd3985YQ
-- OpenAI Spinning Up: An educational resource that provides a comprehensive introduction to RL concepts and algorithms. https://lnkd.in/ggi7Z7Xh
+- **Hugging Face's Deep RL Course**: A free, open-source course that guides learners from beginner to expert in deep reinforcement learning. https://lnkd.in/gd3985YQ
+- **OpenAI Spinning Up**: An educational resource that provides a comprehensive introduction to RL concepts and algorithms. https://lnkd.in/ggi7Z7Xh
 - Coursera: RL Specialization - Offered by the University of Alberta, this specialization comprises four courses that delve into the fundamentals and applications of RL. Learners will explore adaptive learning systems and implement complete RL solutions. https://lnkd.in/ghgeAeS8
 - Deepmind x UCL RL Course: A series of lectures by a leading expert in the field, covering foundational to advanced RL topics. YouTube playlist: https://lnkd.in/gw8re-er. Github: https://lnkd.in/g7rH6yms
 - Stanford Online: CS234 - Reinforcement Learning
