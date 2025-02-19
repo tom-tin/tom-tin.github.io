@@ -6,4 +6,4 @@ categories: [math, probability]
 ---
 
 
-- ![Images by DataInterview](https://raw.githubusercontent.com/tom-tin/tom-tin.github.io/master/_posts/how_blog/images/distributions.jpg)
+- ![Images by DataInterview](https://raw.githubusercontent.com/tom-tin/tom-tin.github.io/master/_posts/stats/images/distributions.jpg)
