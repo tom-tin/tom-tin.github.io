@@ -38,3 +38,4 @@ Hallucinations happen when AI model generates content that is unrealistic, ficti
     - (3) self-attention of decoder.
   - In addition, by training multiple objective funcs simultaneously (e.g. masked language model, causal autoregressive) can help improve a few capabilities: document generation, zero-shot, few-shot.
   - These has been done by ViGPT.
+- [Hallucination mitigation using agentic AI natural language-based frameworks](https://arxiv.org/pdf/2501.13946). highlight the feasibility of multi-agent orchestration and highlight the importance of maintaining a structured exchange of meta-information - particularly through formats supporting Natural Language API - to enhance the reliability and interpretability of AI-generated responses.
