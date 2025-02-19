@@ -10,6 +10,7 @@ categories: [ai, llms, tools]
   - Easy to switch models with minimal code changes.
   - Easy model benchmarking: Can auto A/B test your AI app.
   - Easy API key management via env vars. Easy to set up.
+  - **Easy function calling which is an important capability for agentic workflows** (update 2025-02-19).
   - Highlighted use cases:
     - Automated QA System: Use Mistral to create Q -> Use GPT-4 to answer -> Use Claude to eval.
     - Cost Optimization: Run a task on 3 models -> Compare cost/performance.  
