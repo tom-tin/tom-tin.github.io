@@ -16,6 +16,7 @@ categories: [ai, llms, nlp, nn]
 ## Transformers Explaining
 - [Explaining Transformers as Simple as Possible through a Small Language Model](https://pub.towardsai.net/explaining-transformers-as-simple-as-possible-through-a-small-language-model-6e6038941ca7)
 - [How Transformer LLMs Work](https://www.deeplearning.ai/short-courses/how-transformer-llms-work/) (course by DeepLearning.AI). Instructor: Jay Alammar, Maarten Grootendorst.
+- [Attention is all you need and much more](https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-more/)
 
 ## LSTM Explaining
 - Specifically designed to avoid the vanishing and exploding gradients problem.
