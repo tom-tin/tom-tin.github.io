@@ -11,6 +11,7 @@ categories: [ai, llms, nlp, nn]
 
 ## LLMs Explaining
 - [LLM Visualization](https://bbycroft.net/llm). A great website to show how LLM works.
+- [DeepSeek Explanation 52-page slides](https://www.linkedin.com/posts/hui-yang-6769a793_deepseek-models-ugcPost-7297804601876000768-3OYa/).
 
 ## Transformers Explaining
 - [Explaining Transformers as Simple as Possible through a Small Language Model](https://pub.towardsai.net/explaining-transformers-as-simple-as-possible-through-a-small-language-model-6e6038941ca7)
