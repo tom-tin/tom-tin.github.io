@@ -12,4 +12,5 @@ categories: [techniques, ml, outliers]
   - Benchmark: [45-page paper](https://openreview.net/forum?id=foA_SFQ9zo0) + [AdBench](https://github.com/Minqi824/ADBench), comparing 30 algo on 57 datasets.
  
 ## Resources
-- [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources). Books + papers, courses, videos, datasets, os vs commercial, conferences. 
+- [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources). Books + papers, courses, videos, datasets, os vs commercial, conferences.
+- - [Vision AI for anomaly detection: A quick overview](https://www.ultralytics.com/blog/vision-ai-for-anomaly-detection-a-quick-overview)
