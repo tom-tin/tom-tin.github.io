@@ -11,4 +11,6 @@ categories: [ai, llms, distillation]
   - [Ichigo-whipser](https://huggingface.co/homebrewltd/Ichigo-whisper-v0.1) (even lighter).
   - TTS with [xtts2](https://github.com/thinhlpg/vixtts-demo) with Vietnamese support (need GPU).
 - EdgeTTS.
-- 
+
+## Real-time Audio/Video
+- Library FastRTC by Hugging Face.
