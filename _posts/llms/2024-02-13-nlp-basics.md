@@ -17,6 +17,11 @@ categories: [ai, llms, nlp, nn]
 - [Explaining Transformers as Simple as Possible through a Small Language Model](https://pub.towardsai.net/explaining-transformers-as-simple-as-possible-through-a-small-language-model-6e6038941ca7)
 - [How Transformer LLMs Work](https://www.deeplearning.ai/short-courses/how-transformer-llms-work/) (course by DeepLearning.AI). Instructor: Jay Alammar, Maarten Grootendorst.
 - [Attention is all you need and much more](https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-more/)
+- [Mixture of Experts vs. Transformers](https://www.facebook.com/groups/miaigroup/permalink/1839881160116481/?mibextid=wwXIfr&rdid=QepqnxUWEtgoy63K&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1E87dFjMVM%2F%3Fmibextid%3DwwXIfr#).
+  - MoE use different "experts" to improve Transformer models.
+  - Mainly differ in the decoder block:
+    - Transformer uses a feed-forward network.
+    - MoE uses experts, which are feed-forward networks but smaller compared to that in Transformer.
 
 ## LSTM Explaining
 - Specifically designed to avoid the vanishing and exploding gradients problem.
