@@ -6,3 +6,4 @@ categories: [marketing, tools, reports]
 ---
 
 - [Datasenses.io](https://datasenses.io/): auto sync marketing data to Google Sheets & Google Looker.
+
