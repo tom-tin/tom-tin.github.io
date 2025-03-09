@@ -7,6 +7,7 @@ categories: [python, example]
 
 ## General
 - Chain Transformation with Pipe
+
 ~~~python
 df = df.pipe(lambda d: d.rename(columns={'old_name': 'new_name'})).pipe(lambda d: d.query('new_name > 10'))
 ~~~
@@ -24,7 +25,8 @@ data = {
 }
 df = pd.DataFrame(data)
 
-pivot_df = df.pivot_table(index='category', columns='sub_category', values='value', aggfunc={'value': [np.mean, np.sum]})
+pivot_df = df.pivot_table(index='category', columns='sub_category', values='value',
+                            aggfunc={'value': [np.mean, np.sum]})
 ~~~
 
 - 
