@@ -12,6 +12,7 @@ df = df.pipe(lambda d: d.rename(columns={'old_name': 'new_name'})).pipe(lambda d
 ~~~
 
 - Pivot Data with Multiple Aggregation
+
 ~~~python
 import pandas as pd
 import numpy as np
