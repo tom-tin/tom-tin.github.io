@@ -9,7 +9,7 @@ categories: [python, example]
 
 
 ## General
-1. Chain Transformation with Pipe
+- Chain Transformation with Pipe
 
 ~~~python
 df = df.pipe(lambda d: d.rename(columns={'old_name': 'new_name'})).pipe(lambda d: d.query('new_name > 10'))
@@ -33,6 +33,7 @@ pivot_df = df.pivot_table(index='category', columns='sub_category', values='valu
 ~~~
 
 - Time Series Resampling with Multiple Aggregation
+    - Time series data resampling is a method of data summarization in a time-frequent manner we want, such as daily, weekly, monthly, etc. 
 
 ~~~python
 df_resampled = df.set_index('timestamp').resample('D').agg({'value': ['mean', 'max'], 'count': 'sum'}).reset_index()
@@ -63,6 +64,7 @@ df = df.pipe(lambda d: d.rename(columns={'old_name': 'new_name'})).pipe(lambda d
 ~~~
 
 - Multiple Columns Combination
+    - Not necessarily work for numerical data, more for text data. 
 
 ~~~python
 df['combined'] = df[['col1', 'col2', 'col3']].astype(str).agg('_'.join, axis=1)
@@ -97,6 +99,8 @@ df_merged = reduce(lambda left, right: pd.merge(left, right, on='key', how='oute
 ~~~
 
 -  DataFrame Query Optimization with Eval
+    - Creating a new column based on a DataFrame calculation might take some time, especially if the data are large.
+    - To optimize this process, we can use the Pandas eval() function. By using a procedure similar to the query() function, eval() can improve the execution time while reducing the need for an intermediate object.  
 
 ~~~python
 df = df.eval("col3 = (col1 * 0.8 + col2 * 0.2) / col4", inplace=False)
