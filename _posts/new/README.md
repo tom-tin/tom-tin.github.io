@@ -1,0 +1,1 @@
+All new tech trends
