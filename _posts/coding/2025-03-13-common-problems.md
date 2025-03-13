@@ -20,5 +20,16 @@ def find_subarray_sum(array, i, j):
         subarray_sum += array[k]
     return subarray_sum
 ~~~
+* Idea: create a **prefix summary**, where value at index i is the sum of all elements from start up to index i.
+  * p[i] = a[0] + a[1] + ... + a[i]
+  * Now, you can do one query in just O(1):
+  * sum[i,j] = p[j] - p[i-1]
+  * If there is also a space constraint (you are not allow to create a new array to store p, then you can modify the input array itself), e.g:
+~~~python
+def create_prefix_sum(array):
+    for i in range(1, len(array)):
+        array[i] = array[i-1] + array[i]
+    return array
+~~~
 
 
