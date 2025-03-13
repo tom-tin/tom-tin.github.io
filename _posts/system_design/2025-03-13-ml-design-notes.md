@@ -16,15 +16,15 @@ categories: [system, ml, design]
   * **Monitoring**: Track inference latency, prediction distribution, and model drift with **Prometheus + Grafana**. 
 
 * **Can you describe the architecture of a past ML solution you built and how it handled data, model training, and deployment?**
- * At company A,  I designed an **AI-powered anomaly detection system** for cloud infrastructure monitoring.
- * **Pipeline**:
-  * Data streamed from logs via **Kafka** → Processed in **Spark** for batch & real-time feature extraction.
-  * Model trained with **AutoML (HPO using Optuna)** and deployed via **TorchServe**.
-  * Real-time inference in a **Flask/FastAPI service** with a Redis cache to reduce latency.
-  * Anomaly alerts sent to monitoring dashboards (Prometheus, Grafana) and auto-healing actions triggered via webhooks.
- * **Scalability**:
-  * Used **Kubernetes + Istio** for load balancing & traffic control.
-  * Implemented **multi-armed bandits** to select the best anomaly detection model dynamically.
+  * At company A,  I designed an **AI-powered anomaly detection system** for cloud infrastructure monitoring.
+  * **Pipeline**:
+   * Data streamed from logs via **Kafka** → Processed in **Spark** for batch & real-time feature extraction.
+   * Model trained with **AutoML (HPO using Optuna)** and deployed via **TorchServe**.
+   * Real-time inference in a **Flask/FastAPI service** with a Redis cache to reduce latency.
+   * Anomaly alerts sent to monitoring dashboards (Prometheus, Grafana) and auto-healing actions triggered via webhooks.
+  * **Scalability**:
+   * Used **Kubernetes + Istio** for load balancing & traffic control.
+   * Implemented **multi-armed bandits** to select the best anomaly detection model dynamically.
 
 * **What trade-offs do you consider when choosing between batch and real-time processing for ML pipelines?**
  * **Latency vs. Accuracy**: Real-time processing prioritizes low latency, but batch jobs can use more complex models.
