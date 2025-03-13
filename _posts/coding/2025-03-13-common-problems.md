@@ -11,6 +11,14 @@ categories: [coding, problems, interview]
 * Basic problem: find sum of elements in a sub-array.
   * Say you need to find sum of a[i] to a[j]. Then only need to loop through and add up. Hence only O(n).
 * But if you have m queries (i.e. need to perform m different sums). Then if we simply repeat the above, we need O(mn). How to do it more efficiently?
-*  
+* Example of single query:
+~~~python
+# single query
+def find_subarray_sum(array, i, j):
+    subarray_sum = 0
+    for k in range(i, j+1):
+        subarray_sum += array[k]
+    return subarray_sum
+~~~
 
 
