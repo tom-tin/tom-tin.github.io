@@ -37,7 +37,7 @@ def create_prefix_sum(array):
   * 525. Contiguous array
   * 560. Subarray sum equals K.
    
-* **303. Range Sum Query - Immutable**.
+### **303. Range Sum Query - Immutable**.
  * Given an integer array nums, and multiple queries, each query is a pair of indices [i,j], return corresponding sums of these queries. Each sum is the sum of elements between the indices i, and j, inclusively
 ~~~python
    '''
