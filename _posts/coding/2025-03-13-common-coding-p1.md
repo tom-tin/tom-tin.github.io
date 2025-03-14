@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Common Coding Question Patterns"
+title:  "Common Coding Question Patterns - Part 1 - Prefix Sum"
 date:   2025-03-13 11:00:00 +0700
 categories: [coding, problems, interview]
 ---
