@@ -39,7 +39,7 @@ def create_prefix_sum(array):
    
 * **303. Range Sum Query - Immutable**.
  * Given an integer array nums, and multiple queries, each query is a pair of indices [i,j], return corresponding sums of these queries. Each sum is the sum of elements between the indices i, and j, inclusively
- * ~~~python
+~~~python
    '''
 ["NumArray", "sumRange", "sumRange", "sumRange"]
 [[-2, 0, 3, -5, 2, -1], [0, 2], [2, 5], [0, 5]]
