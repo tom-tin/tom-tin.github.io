@@ -5,7 +5,7 @@ date:   2025-03-13 11:00:00 +0700
 categories: [coding, problems, interview]
 ---
 
-## Prefix Sum
+## Pattern 1: Prefix Sum
 * [YouTube source](https://www.youtube.com/watch?v=DjYZk8nrXVY&list=WL&index=1).
 * [Colab notebook](https://colab.research.google.com/drive/1tFBTNkswFBVgUDWNZLzWdSmQjbQsHhYH#scrollTo=AUo2NXgBxdsr).
 * Basic problem: find sum of elements in a sub-array.
@@ -32,4 +32,23 @@ def create_prefix_sum(array):
     return array
 ~~~
 
+* Related Leetcode problems:
+  * 303. Range Sum Query - Immutable.
+  * 525. Contiguous array
+  * 560. Subarray sum equals K.
+   
+* **303. Range Sum Query - Immutable**.
+ * Given an integer array nums, and multiple queries, each query is a pair of indices [i,j], return corresponding sums of these queries. Each sum is the sum of elements between the indices i, and j, inclusively
+ * ~~~python
+   '''
+["NumArray", "sumRange", "sumRange", "sumRange"]
+[[-2, 0, 3, -5, 2, -1], [0, 2], [2, 5], [0, 5]]
+Output
+[null, 1, -1, -3]
+'''
+~~~
+
+* **525. Contiguous array**.
+
+* **560. Subarray sum equals K.**.
 
