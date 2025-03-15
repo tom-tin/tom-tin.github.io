@@ -7,4 +7,4 @@ categories: [ai, llms, books]
 
 ## Books
 - [The Big Book of LLMs](https://book.theaiedge.io/) (2025-02: chapter 2 now avai).
-- [Foundations of LLMs](https://arxiv.org/pdf/2501.09223).
+- [Foundations of LLMs](https://arxiv.org/pdf/2501.09223). (2025-01)
