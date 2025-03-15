@@ -55,6 +55,7 @@ categories: [system, ml, design]
   * Versioning: Use time-travel queries to backtest models on past feature values.
  
 * **What factors determine your choice of serverless vs server-based deployment?**
+
 | **Criteria**           | **Serverless**                            | **Server-Based**                         |
 |----------------------|--------------------------------|--------------------------------|
 | **Inference Frequency** | Infrequent, unpredictable   | High and consistent traffic    |
