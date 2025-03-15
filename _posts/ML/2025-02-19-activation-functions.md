@@ -13,6 +13,9 @@ categories: [ml, dl, activation]
 - **Sigmoid**: input: all real (-inf,+inf), output: [0,1].
   - Therefore, can represent the class probabilities.
   - Derivatives can be expressed i.t.o. the function itself.
+- **Sofmax**:
+  - For last layer of a DNN for multi-class classification.
+  - Can have exponential float-overflow issues. One trick is to divide both num and deno by e^m where m=max(x1,...,xN). [Source](https://www.facebook.com/groups/viettechies/permalink/1367133101405032/?mibextid=wwXIfr&rdid=iqhfUKTBEHKD9uH6&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1BhFq4r3Ph%2F%3Fmibextid%3DwwXIfr#).
 - **Tanh (Hyperbolic Tangent)**: output: [-1,1].
   - Derivatives can be expressed i.t.o. the function itself.
 - **RELU (Rectified Linear Unit)**:
