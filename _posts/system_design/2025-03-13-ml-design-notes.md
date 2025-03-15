@@ -53,6 +53,18 @@ categories: [system, ml, design]
   * **Retraining Triggers**: Automate retraining based on drift detection.
   * **Alerting**: Set up alerts on **Prometheus + Grafana** for unusual prediction patterns.
   * Versioning: Use time-travel queries to backtest models on past feature values.
+ 
+* **What factors determine your choice of serverless vs server-based deployment?**
+| **Criteria**           | **Serverless**                            | **Server-Based**                         |
+|----------------------|--------------------------------|--------------------------------|
+| **Inference Frequency** | Infrequent, unpredictable   | High and consistent traffic    |
+| **Latency Requirements** | Acceptable with cold starts | Requires low-latency inference |
+| **Scalability Needs** | Auto-scales instantly       | Requires manual/auto-scaling setup |
+| **Cost**             | Pay-per-use, cost-effective | Higher fixed costs |
+| **Hardware Needs**   | Limited GPU/CPU options     | Full hardware control (GPUs, TPUs) |
+| **Operational Overhead** | Minimal (managed by provider) | Requires DevOps and maintenance |
+| **Execution Time**   | Short-lived tasks           | Long-running tasks |
+
 
 ## Data Engineering & Feature Engineering
 * **How do you design a feature store for a company that runs multiple ML models?**
