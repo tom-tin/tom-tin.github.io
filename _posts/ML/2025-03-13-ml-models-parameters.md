@@ -5,6 +5,26 @@ date:   2025-03-13 14:00:00 +0700
 categories: [ml, parameters]
 ---
 
+## Linear Regression
+* L1/L2 penalty
+* Fit intercept
+* Solver
+
+## Logistic Regression
+* L1/L2 penalty
+* Class Weight
+* Solver
+
+## Naive Bayes
+* Alpha
+* Binarize
+* Fit Prior
+
+## Decision Tree
+* Criterion
+* Min Sample Split
+* Max Depth
+
 ## Random Forest
 * n_estimators: num of trees (default: 100).
 * Below 3 are about setting the minimum impurity decrease in order to split a node.
@@ -48,4 +68,26 @@ categories: [ml, parameters]
   * 3 key parameters to tune XGB: the learning rate (alpha), the regularization parameter (gamma), and the amount of pruning (eita).
   * XGBoost is currently not available on pyspark 2.4.4.
   * Both xgboost and gbm follows the principle of gradient boosting. There are however, the difference in modeling details. Specifically, xgboost used a more regularized model formalization to control over-fitting, which gives it better performance.
-    *  
+ 
+## Principal Component
+* N component
+* Iterated Power
+* SVD Solver
+
+## K-Nearest neighbor
+* N Neighbors
+* Algorithm (kd-tree, brute)
+* Weights
+
+## K-means
+* N Clusters
+* Max iter
+* Init
+
+## Deep NNs
+* Hidden Layer Sizes
+* Activation
+* Dropout
+* Solver
+* Alpha
+* Learning Rate
