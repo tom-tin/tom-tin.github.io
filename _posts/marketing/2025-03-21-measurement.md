@@ -17,6 +17,6 @@ categories: [marketing, advertising, measurement]
     * Assesses the impact of ads on brand perception metrics such as awareness, favorability, and purchase intent. Surveys are used to gather data from people exposed to ads compared to those who haven't seen them.
   * **Marketing Mix Modeling (MMM)**
     * Analyzes how different marketing channels contribute to sales or other outcomes over time. MMM helps in understanding the ROI of various marketing activities and guides budget allocation.
-  * ** GeoLift**
+  * **GeoLift**
     * A solution that uses aggregated data to measure the impact of marketing efforts by geography. It helps businesses understand the effectiveness of campaigns across different regions.
   * By integrating these tools into a holistic measurement approach, businesses can gain deeper insights into their advertising strategies, optimize performance, and make data-driven decisions to achieve their marketing objectives.    
