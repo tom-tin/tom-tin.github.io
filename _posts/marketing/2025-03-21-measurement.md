@@ -5,7 +5,7 @@ date:   2025-03-21 17:00:00 +0700
 categories: [marketing, advertising, measurement]
 ---
 
-* (Meta) [Explore the measurement solutions available](https://www.facebookblueprint.com/student/path/253127/activity/568486#/page/65298604ab23df473103bbcb).
+* (Meta) [Explore the measurement solutions available](https://www.facebookblueprint.com/student/path/253127/activity/568486#/page/65298604ab23df473103bbcb). Also, check out Meta's course on [building a holistic measurement approach](https://www.facebookblueprint.com/student/path/253127-marketing-measurement-course).
   * ​Meta offers a comprehensive suite of measurement solutions to help businesses evaluate and enhance their advertising effectiveness across its platforms. Key tools and methodologies include:
   * **Ads Manager**
     * A centralized platform for creating, managing, and analyzing ad campaigns. It provides real-time performance metrics to monitor and optimize campaigns effectively.
