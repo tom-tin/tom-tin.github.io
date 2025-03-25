@@ -14,6 +14,10 @@ categories: [causal inference, explain, models, overview]
   - **Matching (Propensity Score Matching, Nearest Neighbor Matching)** – Matches treated and control units with similar characteristics.
   - **Inverse Probability Weighting (IPW)** – Weights units to balance treatment and control groups.
   - **Difference-in-Differences (DiD)** – Compares pre/post-treatment differences between treated and control groups.
+- **Assumptions**:
+  - **Stable Unit Treatment Value Assumption (SUTVA)** – No interference between units.
+  - **Unconfoundedness (Conditional Independence)** – No unmeasured confounders.
+  - **Common Support (Overlap Condition)** – Sufficient overlap in covariates between treated and control groups.
 
 ### **B. Structural Causal Models (SCMs, Pearl’s Causal Graphs)**
 - **Concept**: Uses Directed Acyclic Graphs (DAGs) to model causal relationships explicitly.
@@ -21,6 +25,10 @@ categories: [causal inference, explain, models, overview]
   - **Do-Calculus** – Adjusts for confounding using causal graphs.
   - **Instrumental Variables (IV)** – Uses external factors to estimate causal effects when treatment is endogenous.
   - **Front-Door Adjustment** – Identifies causal effects using mediators.
+- **Assumptions**:
+  - **Causal Sufficiency** – The DAG correctly represents the causal relationships.
+  - **Instrument Validity (for IV)** – Instrument affects the outcome only through treatment.
+  - **Exclusion Restriction (for IV)** – No direct path from instrument to outcome.
 
 ### **C. Regression-Based Approaches**
 - **Concept**: Uses statistical models to control for confounders and estimate causal effects.
@@ -28,6 +36,10 @@ categories: [causal inference, explain, models, overview]
   - **Ordinary Least Squares (OLS) with Covariate Adjustment** – Assumes no unobserved confounders.
   - **Fixed Effects Models** – Removes unit-specific biases by differencing within units over time.
   - **Synthetic Control Method** – Creates a weighted combination of control units to estimate counterfactual outcomes.
+- **Assumptions**:
+  - **Linearity (for OLS)** – Relationship between treatment and outcome is linear.
+  - **No Time-Varying Confounders (for Fixed Effects)** – Confounders do not change over time.
+  - **Parallel Trends (for Synthetic Control)** – Control units evolve similarly to the treated unit before treatment.
 
 ### **D. Machine Learning-Based Approaches**
 - **Concept**: Uses ML to improve causal effect estimation.
@@ -36,27 +48,31 @@ categories: [causal inference, explain, models, overview]
   - **Double Machine Learning (DML)** – Uses ML to flexibly control for confounders while maintaining valid inference.
   - **Uplift Modeling** – Predicts differential treatment effects at the individual level.
   - **Deep Causal Models** – Uses deep learning for estimating complex causal relationships.
+- **Assumptions**:
+  - **Unconfoundedness (for Causal Forests, DML)** – No unobserved confounders.
+  - **Correct Model Specification (for ML methods)** – Models must be properly tuned and validated.
+  - **Sufficient Data (for Deep Learning)** – Large datasets are needed to avoid overfitting.
 
 ---
 
 ## **2. Comparison of Causal Inference Models**
 
-| **Method**                  | **Pros** | **Cons** | **Best Use Cases** |
-|-----------------------------|---------|---------|------------------|
-| **RCTs** | Strong causal claims, unbiased estimates | Expensive, ethical constraints | Clinical trials, policy evaluation |
-| **Matching (PSM, NN)** | Intuitive, improves balance | Requires good overlap, may not remove hidden confounders | Observational studies with rich covariates |
-| **IPW** | Flexible, handles multiple covariates | Sensitive to extreme weights, requires correct model specification | Economics, healthcare, social sciences |
-| **DiD** | Controls for time-invariant unobservables | Requires parallel trends assumption | Policy impact evaluation, labor economics |
-| **SCMs (DAGs, Do-Calculus)** | Explicit causal assumptions, systematic | Requires correct causal graph | Epidemiology, econometrics, AI fairness |
-| **IV** | Solves endogeneity issues | Needs a valid instrument, weak IV bias | Economics, pricing, labor studies |
-| **Front-Door Adjustment** | Works when confounding is unavoidable | Needs a valid mediator | Mediation analysis, marketing attribution |
-| **OLS with Covariates** | Simple, interpretable | Fails if unobserved confounders exist | General observational studies |
-| **Fixed Effects Models** | Removes time-invariant bias | Cannot control for time-varying confounders | Panel data studies |
-| **Synthetic Control** | Robust for policy evaluation | Requires good donor pool | Public policy, regional studies |
-| **Causal Forests** | Estimates heterogeneous effects | Hard to interpret, data-hungry | Personalized medicine, A/B testing |
-| **Double ML** | Strong theoretical guarantees | Sensitive to ML model choices | High-dimensional data, causal discovery |
-| **Uplift Modeling** | Optimizes interventions | Needs large data, may overfit | Marketing, personalized recommendations |
-| **Deep Causal Models** | Captures non-linearities | Opaque, requires large data | Healthcare, complex policy modeling |
+| **Method**                  | **Pros** | **Cons** | **Best Use Cases** | **Key Assumptions** |
+|-----------------------------|---------|---------|------------------|------------------|
+| **RCTs** | Strong causal claims, unbiased estimates | Expensive, ethical constraints | Clinical trials, policy evaluation | Randomization, SUTVA |
+| **Matching (PSM, NN)** | Intuitive, improves balance | Requires good overlap, may not remove hidden confounders | Observational studies with rich covariates | Unconfoundedness, Common Support |
+| **IPW** | Flexible, handles multiple covariates | Sensitive to extreme weights, requires correct model specification | Economics, healthcare, social sciences | Correctly specified propensity scores |
+| **DiD** | Controls for time-invariant unobservables | Requires parallel trends assumption | Policy impact evaluation, labor economics | Parallel Trends, SUTVA |
+| **SCMs (DAGs, Do-Calculus)** | Explicit causal assumptions, systematic | Requires correct causal graph | Epidemiology, econometrics, AI fairness | Causal Sufficiency |
+| **IV** | Solves endogeneity issues | Needs a valid instrument, weak IV bias | Economics, pricing, labor studies | Instrument Validity, Exclusion Restriction |
+| **Front-Door Adjustment** | Works when confounding is unavoidable | Needs a valid mediator | Mediation analysis, marketing attribution | Proper Mediator Selection |
+| **OLS with Covariates** | Simple, interpretable | Fails if unobserved confounders exist | General observational studies | Linearity, No Unobserved Confounders |
+| **Fixed Effects Models** | Removes time-invariant bias | Cannot control for time-varying confounders | Panel data studies | No Time-Varying Confounders |
+| **Synthetic Control** | Robust for policy evaluation | Requires good donor pool | Public policy, regional studies | Parallel Trends |
+| **Causal Forests** | Estimates heterogeneous effects | Hard to interpret, data-hungry | Personalized medicine, A/B testing | Unconfoundedness |
+| **Double ML** | Strong theoretical guarantees | Sensitive to ML model choices | High-dimensional data, causal discovery | Unconfoundedness, Correct Model Specification |
+| **Uplift Modeling** | Optimizes interventions | Needs large data, may overfit | Marketing, personalized recommendations | Proper Stratification |
+| **Deep Causal Models** | Captures non-linearities | Opaque, requires large data | Healthcare, complex policy modeling | Sufficient Data, Correct Model Specification |
 
 ---
 
