@@ -19,9 +19,12 @@ categories: [causal inference, explain, models, overview]
   - **Unconfoundedness (Conditional Independence)** – No unmeasured confounders.
   - **Common Support (Overlap Condition)** – Sufficient overlap in covariates between treated and control groups.
   - **For DiD**:
-    - **Parallel Trends**: T and C groups would have evolved similarly without treatment.
+    - **Parallel Trends**: T and C groups would have evolved similarly without treatment (i.e. must have similar pre-treatment trends).
+      - Example: If you're studying the impact of a minimum wage increase on employment, but the treated regions already had a declining employment trend before the policy change, the results may be misleading.
     - **No Anticipation**: Treatments doesn't affect the outcome before implementation.
+      - Example: If businesses preemptively reduce hiring before a new minimum wage law takes effect, this would violate the assumption. 
     - **No Simultaneous Confounding Shocks**: No other event affects T/C groups differently at the same time.
+      - Example: If a new tax policy was introduced at the same time as the minimum wage increase, it would be hard to separate their effects on employment. 
     - **Stable Composition of Groups**: No selection bias or differential attrition or migration. This ensures that differences are due to treatment, not changes in group characteristics.
       - Example of violation: If user self-select in to T group. If higher-skilled workers move out of states with a minimum wage increase, the observed employment effects might be due to worker mobility, not the policy itself.
 
