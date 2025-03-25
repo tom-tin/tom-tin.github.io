@@ -96,3 +96,6 @@ categories: [causal inference, explain, models, overview]
   - **DiD/Fixed Effects** if longitudinal data is available.
   - **SCMs (DAGs, IV)** if confounding is complex.
   - **Machine Learning (Causal Forests, Double ML)** if high-dimensional data and heterogeneity matter.
+ 
+### **4. Additional Notes**
+- CUPED is a part of RCT framework, rather than observational methods like DiD or IV.
