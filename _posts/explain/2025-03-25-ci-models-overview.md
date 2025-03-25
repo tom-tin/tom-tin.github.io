@@ -27,8 +27,12 @@ categories: [causal inference, explain, models, overview]
   - **Front-Door Adjustment** – Identifies causal effects using mediators.
 - **Assumptions**:
   - **Causal Sufficiency** – The DAG correctly represents the causal relationships.
-  - **Instrument Validity (for IV)** – Instrument affects the outcome only through treatment.
-  - **Exclusion Restriction (for IV)** – No direct path from instrument to outcome.
+  - **Instrument Validity (for IV)** – Instrument affects the outcome only through treatment. This entails 2 assumptions below. We say that an IV is valid if it satisfies both.
+    - **Relevance** - The IV must be strongly correlated with the treatment. This is so that the IV can generate enough variation in the treatment. If not, we have a "weak IV bias". 
+    - **Exclusion Restriction** – No direct or other indirect path from instrument to outcome.
+    - Explain these two by example: Study the effect of education on income (target). Here, education is expressed by number of years for schooling (treatment).
+      - If choose IV = distance to the nearest college: Exclusion assumption is violated, since living near a college also improves networking opportunities or access to better jobs independent of schooling.
+      - If choose IV = education reform laws: Might be possible, since it can affect the treatment and not likely to affect income directly. 
 
 ### **C. Regression-Based Approaches**
 - **Concept**: Uses statistical models to control for confounders and estimate causal effects.
