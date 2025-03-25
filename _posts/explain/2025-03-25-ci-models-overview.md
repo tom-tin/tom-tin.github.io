@@ -18,6 +18,12 @@ categories: [causal inference, explain, models, overview]
   - **Stable Unit Treatment Value Assumption (SUTVA)** – No interference between units.
   - **Unconfoundedness (Conditional Independence)** – No unmeasured confounders.
   - **Common Support (Overlap Condition)** – Sufficient overlap in covariates between treated and control groups.
+  - **For DiD**:
+    - **Parallel Trends**: T and C groups would have evolved similarly without treatment.
+    - **No Anticipation**: Treatments doesn't affect the outcome before implementation.
+    - **No Simultaneous Confounding Shocks**: No other event affects T/C groups differently at the same time.
+    - **Stable Composition of Groups**: No selection bias or differential attrition or migration. This ensures that differences are due to treatment, not changes in group characteristics.
+      - Example of violation: If user self-select in to T group. If higher-skilled workers move out of states with a minimum wage increase, the observed employment effects might be due to worker mobility, not the policy itself.
 
 ### **B. Structural Causal Models (SCMs, Pearl’s Causal Graphs)**
 - **Concept**: Uses Directed Acyclic Graphs (DAGs) to model causal relationships explicitly.
