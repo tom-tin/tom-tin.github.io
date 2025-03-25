@@ -11,6 +11,8 @@ categories: [causal inference, explain, models, overview]
 - **Concept**: Each unit has a potential outcome for each possible treatment.
 - **Key Methods**:
   - **Randomized Controlled Trials (RCTs)** – Gold standard for causal inference.
+    - In here, CUPED (Controlled Experiment Using Pre-Experiment Data) is a variance reduction technique. We compute a pre-experiment covariate X that is related to the outcome Y. Usually, choose X to be the pre-experiment Y. Then use X to compute an adjusted Y, Y', and then use Y' to compare between T and C groups (instead of Y).
+    - The result? The test becomes more sensitive, meaning we can detect treatment effects with a smaller sample size or get more precise confidence intervals.
   - **Matching (Propensity Score Matching, Nearest Neighbor Matching)** – Matches treated and control units with similar characteristics.
   - **Inverse Probability Weighting (IPW)** – Weights units to balance treatment and control groups.
   - **Difference-in-Differences (DiD)** – Compares pre/post-treatment differences between treated and control groups.
