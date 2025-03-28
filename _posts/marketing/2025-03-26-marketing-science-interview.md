@@ -121,10 +121,23 @@ categories: [marketing, interview]
   - Meta frequently publishes insights on the benefits of **incrementality testing and MMM**.
 
 ## 6. How would you explain p-value and statistical significance to a non-technical stakeholder?
-- Instead of using technical terms, I'd **use an analogy**:
+- **In simple terms**, statistical significance means **a result is highly unlikely to have occurred by chance alone, suggesting a real effect or relationship is present, rather than just random variation.
+- Also, consider **an analogy**:
   - Imagine flipping a coin 100 times to test if it's fair. If we get 60 Hs, is it luck, or is the coin actually biased?
   - A p-value of 0.03 means there's only a 3% change that this outcome happened by luck.
   - If p-value < 0.05, we can be fairly confident the coin is biased.
-- For marketing:
+- Another analogy for marketing:
   - If we run an A/B Test on an ad campaign and the p-value is 0.02, there's a 2% probability the results are random - so we can be reasonably confident the campaign improved conversions.  
 
+## What is a t-test. Why and when to use it?
+
+## Explain the following in simple terms: Central Limit Theorem, The Law of Large Numbers
+* **CLT**:
+  * Statements: 
+    * If you take MANY random samples from any population, their average (mean) will form a normal distribution, regardless of the original population’s shape.
+    * As the sample size increases, the mean of these samples will get closer to the true population mean.
+  * Why is CLT important?
+    * It allows us to make inference about a population from a sample.
+    * It justifies the use of many statistical methods/models: t-tests, confidence interval, regression models.
+    * It works even when the original data is not normally distributed.
+      * This is why t-tests (which assume normality) can work **even when our data is skewed**, as long as we have **enough samples**.  (usually, n>=30 is enough). If n is smaller, we need to check if the original data is approximately normal.
