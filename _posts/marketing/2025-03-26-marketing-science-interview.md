@@ -131,7 +131,8 @@ categories: [marketing, interview]
 
 ## What is a t-test. Why and when to use it?
 * In data analysis, we often compare **2 groups** to see if one performs better than the other. However, just because one group's mean is higher doesn't mean the difference is statistically significant - it could be due to random variation --> Hence, a t-test determine whether the difference is large enough to be consider meaningful.
-* | **T-Test Type**            | **When to Use**                            | **Example** |
+*
+| **T-Test Type**            | **When to Use**                            | **Example** |
 |----------------------------|--------------------------------------------|------------|
 | **Independent (Unpaired) T-Test** | Compare two separate groups             | Comparing conversion rates for two ad versions |
 | **Paired T-Test**         | Compare before-after or matched pairs      | Measuring sales before vs. after running a Meta Ads campaign |
