@@ -130,6 +130,12 @@ categories: [marketing, interview]
   - If we run an A/B Test on an ad campaign and the p-value is 0.02, there's a 2% probability the results are random - so we can be reasonably confident the campaign improved conversions.  
 
 ## What is a t-test. Why and when to use it?
+* In data analysis, we often compare **2 groups** to see if one performs better than the other. However, just because one group's mean is higher doesn't mean the difference is statistically significant - it could be due to random variation --> Hence, a t-test determine whether the difference is large enough to be consider meaningful.
+* | **T-Test Type**            | **When to Use**                            | **Example** |
+|----------------------------|--------------------------------------------|------------|
+| **Independent (Unpaired) T-Test** | Compare two separate groups             | Comparing conversion rates for two ad versions |
+| **Paired T-Test**         | Compare before-after or matched pairs      | Measuring sales before vs. after running a Meta Ads campaign |
+| **One-Sample T-Test**     | Compare one group against a fixed value    | Checking if email open rates are higher than 20% |
 
 ## Explain the following in simple terms: Central Limit Theorem, The Law of Large Numbers
 * **CLT**:
