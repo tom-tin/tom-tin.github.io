@@ -158,3 +158,50 @@ categories: [marketing, interview]
     * It justifies the use of many statistical methods/models: t-tests, confidence interval, regression models.
     * It works even when the original data is not normally distributed.
       * This is why t-tests (which assume normality) can work **even when our data is skewed**, as long as we have **enough samples**.  (usually, n>=30 is enough). If n is smaller, we need to check if the original data is approximately normal.
+
+## An advertiser (a soap brand) ask to to advise on whether to run ads for a small subset of users (e.g., mom in HCM) versus for all users (all users in Vn). What would you do?
+
+## Overview of Ad Measurement on Mobile Apps
+* **1. Key Points of Mobile App Ad Measurement** focuses on tracking **ad performance, user engagement, and conversions** while maintaining user privacy. It typically involves: 
+  * **Attribution Models**: assigning credit to the correct marketing channels (e.g., last-click, multi-touch).
+  * **Key Metrics**: Installs, clicks, impressions, cost-per-install (CPI), retention, LTV, ROAS.
+  * **Tracking Methods**: Mobile Measurement Partners (MMPs), SDK integrations, and device identifiers (e.g., IDFA, GAID).
+  * **Privacy Challenges**: Shift towards **privacy-preserving measurement** (e.g., SKAdNetwork, Privacy Sandbox).
+  * **Fraud Prevention**: Techniques to detect bot activity, click injection, and fake installs. 
+* **2. Key Challenges in Mobile Ad Measurement**
+  * It has become more complex due to privacy changes and technical limitations. The main challenges include: 
+  * **A. Privacy & Tracking Limitations**
+    * **Deprecation of IDFA & GAID** -> Apple's **App Tracking Transparency (ATT)** and Google's **Privacy Sanbox** limit user tracking.
+    * **SKAdNetwork (SKAN) * Aggregation** -> Apple's privacy-friendly attribution model provides **limited data** (no user-level tracking).
+    * **Google's Privacy Sandbox for Android** -> Moving towards aggregated measurement with **Topics API** and **FLEDGE**.  
+  * **B. Attribution & Multi-Touch Complexity**
+    * **Last-click attribution is flawed** -> Overestimates the importance of the final touchpoint.
+    * **Cross-device & cross-platform tracking is difficult** -> A user might lick an ad on mobile but convert on desktop.
+    * **Limited view-through attribution (VTA) data** -> Hard to measure the effect of non-click interactions.
+  * **C. Fraud & Data Accuracy Issues**
+    * **Ad fraud (e.g., click injection, SDK spoofing, bot installs)** distorts performance metrics.
+    * **Self-attributing networks (SANs)** like Meta & Goolge control their own attribution models, limiting transparency.
+    * **Delayed reporting** (e.g., SKAdnetwork delays data up to 72 hours) affects real-time optimization.
+* **3. How to Ensure Accurate Measurement?**
+  * To get **accurate & actionable** mobile ad measurement, consider the following: 
+  * **A. Use Privacy-Compliant Tracking Methods**
+    * Implement **SKAdNetwork (SKAN) for iOS** and **Privacy Sandbox for Android**
+    * Use **first-party data & server-to-server tracking** for better attribution.
+    * Invest in **incrementality testing (Geo Lift, Conversion Lift)** instead of relying on last-click model. 
+  * **B. Improve Attribution & Multi-Touch Measurement**
+    * Use **probabilistic modeling & data-driven attribution** (e.g., **Shapley Value, Markov Chain)**.
+    * Implement **unified measurement** across different ad platforms (e.g., MMM + incrementality tests).
+    * Leverage **MMPs (AppsFlyer, Adjust, Branch, Singular)** for improved tracking. 
+  * **C. Combat Ad Fraud & Data Quality Issues**
+    * Use **fraud detection tools** (e.g., AppsFlyer Protect360, Adjust Fraud Prevention).
+    * Monitor **post-install engagement** to detect fake installs (e.g., **retention rate drops)**.
+    * Set up **real-time anomaly detection** to spot suspicious click & install patterns.
+* **4. Privacy & Compliance Considerations**
+  * **GDPR & CCPA Compliance** -> Users must **opt-in** to data tracking.
+  * **Consent Management Platforms (CMPs)** -> Collect user permissions transparently.
+  * **Privacy-Preserving Measurement** -> Adopt **aggregated reporting, differential privacy**, and **synthetic data** techniques. 
+* **5. Summary: Future of Mobile Ad Measurement**
+* The industry is shiting towards **privacy-first, aggregated, and probabilistic models.**
+* Advertisers need to **adapt to SKAN, Privacy Sandbox, and first-party data strategies.**
+* **AI-driven attribution & MMM (Marketing Mix Modeling) will become more important** for decision-making.
+ 
