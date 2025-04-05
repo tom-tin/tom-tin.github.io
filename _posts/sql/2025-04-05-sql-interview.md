@@ -46,5 +46,24 @@ group by
   c.campaign_id
 
 ~~~
-4. 
+3. Meta Ads Ads SQL Scenario
+   - Table: `meta_ads(ad_id, campaign_id, date, impressions, clicks, spend, conversions)`
+   - Write a query to:
+     - Compute CTR, CVR, and CPC per campaign. Be careful how we define these.
+     - Return only campaigns with CTR > 2% and CPC < $1.
+~~~sql
+select
+  campaign_id,
+  SUM(clicks)*1.0 / SUM(impressions) as ctr,
+  SUM(conversions)*1.0 / SUM(clicks) as cvr,
+  SUM(spend)*1.0 / SUM(clicks) as cpc
+from
+  meta_ads
+group by
+  campaign_id
+having
+  SUM(clicks)*1.0 / SUM(impressions) > 0.02
+  and SUM(spend)*1.0 / SUM(clicks) < 1.0
+~~~
+5.  
 
