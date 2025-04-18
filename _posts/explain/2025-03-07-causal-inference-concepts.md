@@ -14,3 +14,9 @@ categories: [causal inference, explain]
 ## Ref
 - [The importance of experimentation in marketing](https://www.linkedin.com/posts/svet-semov-79072913_causal-inference-is-a-hidden-weapon-for-data-activity-7300541383814103040-ynep/)
 - [ Scott Cunningham's book, Causal Inference: The Mixtape](https://mixtape.scunning.com/): has a great chapter (4) on potential outcomes
+
+<details><summary>Click here for explanation</summary
+
+Some text
+
+</details>
