@@ -65,5 +65,27 @@ having
   SUM(clicks)*1.0 / SUM(impressions) > 0.02
   and SUM(spend)*1.0 / SUM(clicks) < 1.0
 ~~~
-5.  
+
+4. Find the distribution of posts made by users (i.e., 1000 users posted 1 time, 500 users posted 2 times, etc.)
+  - `users(user_id, active_status, join_time)`
+  - `posts(post_id, user_id, post_time)`
+~~~sql
+with cte as
+  (
+  select
+    u.user_id,
+    count(distinct post_id) as num_posts
+  from users u
+  left join posts p on u.user_id = p.user_id
+  group by u.user_id
+  )
+select
+  num_posts,
+  count(*) as num_users
+from
+  cte
+group by num_posts
+~~~
+5. 
+6.   
 
