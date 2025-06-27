@@ -16,4 +16,5 @@ categories: [ai, llms, nlp, nn]
 | **Learning?**      | Yes, end-to-end training using backpropagation                           | Not inherently "learning-based", though can be used alongside ML models                   |
 | **Representation** | Dense vectors learned through message passing between nodes              | Symbolic, usually stored as RDF triples or a property graph (Neo4j, etc.)                 |
 | **Examples**       | Node classification, link prediction, graph classification               | Entity linking, semantic search, recommendation                                           |
+| **Applications**   | * Social Nw analysis: Predict user behavior, friend recommendations               | Entity linking, semantic search, recommendation                                           |
 
