@@ -51,7 +51,7 @@ And then store it in Neo4j or Amazon Neptune for querying.
 | Customer Segmentation   | ✅ Hierarchical structure  | ✅ Graph clustering                 |
 
 
-Combine GNNs + KGs for Advanced Applications
+**Combine GNNs + KGs for Advanced Applications:**
 * Knowledge-Enhanced Recommendations:
   * Use KG as input for GNN (e.g., KGAT: Knowledge Graph Attention Network)
   * Products and users embedded into a semantic space for improved relevance
