@@ -7,10 +7,15 @@ categories: [ai, llms, nlp, nn]
 
 - [LLM Knowledge Graph Builder — First Release of 2025](https://neo4j.com/developer-blog/knowledge-graph-builder-first/)
 
+
+
 | Aspect             | **Graph Neural Network (GNN)**                                           | **Knowledge Graph (KG)**                                                                  |
+
 | ------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 
+
 ### Knowledge Graph vs Graph Neural Network
+
 | Aspect             | **Graph Neural Network (GNN)**                                           | **Knowledge Graph (KG)**                                                                  |
 | ------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | **Definition**     | A neural network architecture that operates on graph-structured data     | A structured representation of knowledge in the form of entities and relationships        |
