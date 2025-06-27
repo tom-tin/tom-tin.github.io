@@ -9,10 +9,6 @@ categories: [ai, llms, nlp, nn]
 
 
 
-| Aspect             | **Graph Neural Network (GNN)**                                           | **Knowledge Graph (KG)**                                                                  |
-| ------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| Test            | test                                           | test                                                                  |
-
 
 
 ### Knowledge Graph vs Graph Neural Network
@@ -27,3 +23,17 @@ categories: [ai, llms, nlp, nn]
 | **Examples**       | Node classification, link prediction, graph classification               | Entity linking, semantic search, recommendation                                           |
 | **Applications**   | Social Nw analysis: Predict user behavior, friend recommendation. Molecule property prediction: For drug discovery (moledules as graphs) . Recommendation systems: Personalized recommendations by modeling user-item interaction graph. Fraud detection: Detect anomalies in transaction networks.      | Search engines: Google’s Knowledge Panel (e.g., “Barack Obama → Born In → Hawaii”). Chatbots & QA systems: Semantic understanding and retrieval. Product information management: Unified representation of items and their relationships. Personalization engines: Capture customer interests and intent                                           |
 
+In Ecommerce:
+
+| Aspect             | **Graph Neural Network (GNN)**                                           | **Knowledge Graph (KG)**                                                                  |
+| ------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| What they do       | Learn powerful embeddings over graphs (users–products, product–product similarity, etc.). Predict next product to buy, bundle offers, or cross-sell suggestions               | Unify information across systems (products, customers, categories, brands). Provide semantic reasoning (e.g., "Lingerie is a type of women's underwear"). Enable personalized recommendations, faceted search, and chatbots                                           |
+
+
+| Use Case                | Knowledge Graph           | Graph Neural Network               |
+| ----------------------- | ------------------------- | ---------------------------------- |
+| Entity Linking & Search | ✅ Yes                     | ❌ Not designed for this            |
+| Recommendation Systems  | ✅ With rules              | ✅ With learning & embeddings       |
+| Fraud Detection         | ❌                         | ✅ Especially on transaction graphs |
+| Personalized Experience | ✅ With semantic relations | ✅ With behavior modeling           |
+| Customer Segmentation   | ✅ Hierarchical structure  | ✅ Graph clustering                 |
