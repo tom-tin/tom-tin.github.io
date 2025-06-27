@@ -11,6 +11,8 @@ categories: [ai, llms, nlp, nn]
 
 | Aspect             | **Graph Neural Network (GNN)**                                           | **Knowledge Graph (KG)**                                                                  |
 | ------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Test            | test                                           | test                                                                  |
+
 
 
 ### Knowledge Graph vs Graph Neural Network
