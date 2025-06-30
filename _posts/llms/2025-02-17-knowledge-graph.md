@@ -116,11 +116,31 @@ Graph Structure:
 
 ### References
 #### Academic Papers
+**Knowledge Graphs for E-commerce**:
+* [Alibaba’s Product Knowledge Graph](https://arxiv.org/abs/2006.05688):  “Building a Product Knowledge Graph from E-commerce Websites”
+* [Amazon Product Graph](https://dl.acm.org/doi/10.1145/3159652.3159672):  large-scale taxonomy & entity linking.
+
+**Graph Neural Networks in Recommender Systems**:
+* [PinSage (Pinterest’s large-scale GNN for recommendations)](https://arxiv.org/abs/1806.01973): 
+* [Graph Neural Networks for Recommender Systems (survey)](https://arxiv.org/abs/2105.06339):.
+* [Knowledge Graph Attention Network (KGAT) for recommendation](https://arxiv.org/abs/1905.07854):.
+
 
 #### Libaries & Tools
+* KG:
+ * Neo4j, Amazon Neptune, Grakn, RDFLib (Python).
+ * Stanford's Protege for ontology design.
+* GNN:
+ * [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/):
+ * [DGL (Deep Graph Library)](https://www.dgl.ai/):
+ * TensorFlow GNN:
 
 #### Blogs & Tutorials
+* [Graph ML for recommendations (Pinterest)](https://medium.com/pinterest-engineering/graph-learning-at-pinterest-3f3bffb2f6c2):
+* [Alibaba’s KG pipeline](https://tech.antfin.com/community/articles/784377):
+* [GNN explained simply by Jay Alammar](https://jalammar.github.io/illustrated-graph-neural-networks/):
+* [Neo4j E-commerce KG demo](https://neo4j.com/blog/tag/e-commerce/):
 
 #### Open Code Examples
 * [Session-based GNN recommendation (PyG)](https://github.com/CRIPAC-DIG/SR-GNN): Graph-based session recommendation)
-
+* [KGAT implementation (RecBole)](https://github.com/RUCAIBox/RecBole): (standard toolkit with KG-enhanced recs)
