@@ -5,6 +5,12 @@ date:   2025-02-19 09:00:00 +0700
 categories: [ai, reinforcement learning]
 ---
 
+## Terminologies
+- Off-Policy Evaluation (OPE): a technique in RL to estimate the performance of a target policy (i.e., the policy you want to evaluate) using data collected by a behavior policy (i.e., a different policy used to generate the data).
+  - In other words, you can come up with a new policy A (e.g., using simulation). You want to evaluate how A would perform in a given scenario without having to directly execute A in the environment.
+  - [A Review of OPE in RL](https://arxiv.org/pdf/2212.06355).
+- 
+
 ## Limitations
 - Real-time use can be limited.
   - Need a lot of interactions with the env. to learn effective policies.
