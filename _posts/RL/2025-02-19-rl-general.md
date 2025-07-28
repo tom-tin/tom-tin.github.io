@@ -9,6 +9,17 @@ categories: [ai, reinforcement learning]
 - Off-Policy Evaluation (OPE): a technique in RL to estimate the performance of a target policy (i.e., the policy you want to evaluate) using data collected by a behavior policy (i.e., a different policy used to generate the data).
   - In other words, you can come up with a new policy A (e.g., using simulation). You want to evaluate how A would perform in a given scenario without having to directly execute A in the environment.
   - [A Review of OPE in RL](https://arxiv.org/pdf/2212.06355).
+  - How it works: OPE methods typically use techniques like importance sampling to adjust the contributions of different actions and states in the historical data to account for the difference between A and B.
+  - Why bother?
+    - You can eval policies without executing them in the real world (useful in high risk / cost applications such as robotics, healthcare).
+    - You can leverage existing data to gains insight into the performance of different strategies.
+    - You can discover better policies than those used to generate the initial data.
+    - 3 core methods in OPE:
+    - Inverse Propensity Scoring (IPS): Reweight each logged sample based on how likely the new policy would have chosen the same action as the behavior (historical) policy did.
+      - An example of importance sampling.
+      - $V(\pi)$ 
+    - Weighted Importance Sampling (WIS):
+    - Doubly Robust (DR) Estimator: 
 - 
 
 ## Limitations
