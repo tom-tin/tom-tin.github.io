@@ -6,9 +6,14 @@ categories: [ai, reinforcement learning]
 ---
 
 ## Terminologies
+### Evaluation
 - Off-Policy Evaluation (OPE): a technique in RL to estimate the performance of a target policy (i.e., the policy you want to evaluate) using data collected by a behavior policy (i.e., a different policy used to generate the data).
   - [More details](https://tom-tin.github.io/ai/reinforcement%20learning/2025/07/28/rl-ope.html). 
-- PPO 
+### Offline RL
+- Conservative Q-Learning (CQL): prevent value overestimation outside the data support.
+- Implicit Q-Learning (IQL): strong, simple, stable without importance sampling.
+- TD3+BC / BCQ / BRAC / AWAC: if your action is continuous (budget value).
+- FQI/FQE (Fitted Q Iteration/Evaluation): classical, strong baselines.
 
 ## Limitations
 - Real-time use can be limited.
