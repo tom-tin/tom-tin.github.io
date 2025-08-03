@@ -12,9 +12,11 @@ categories: [reinforcement learning, Thompson Sampling]
 - Beta distr. is conjugate to the Bernoulli.
   - We are trying to estimate the probability that a campaign is "good" (i.e., profitable).
   - Hence, if we get feedback as a binary signal, we use Beta prior.
+  - Beta distr. models the probability of sucess in a binary outomce (profit/non-profit).
 - Parameters of Beta distr.
-  - $\alpha$:
-  - $\beta$:  
+  - $\alpha$: number of "successes" seen so far.
+  - $\beta$: number of "failure" seen so far.
+  - Mean $\miu$
 - Process:
   - Initialize each arm with $\alpha=1$, $\beta=1$. Then, a Beta(1,1) is just a uniform distr. over [0,1].
   - 
