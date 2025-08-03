@@ -17,6 +17,7 @@ categories: [reinforcement learning, Thompson Sampling]
   - $\alpha$: number of "successes" seen so far.
   - $\beta$: number of "failure" seen so far.
   - Mean $\mu = \frac{\alpha}{\alpha + \beta}$
+  - Variance $\sigma^2 = \frac{\alpha \beta}{(\alpha + \beta)^2  (\alpha + \beta + 1)}$ --> deceases as we ahve more data.
 - Process:
   - Initialize each arm with $\alpha=1$, $\beta=1$. Then, a Beta(1,1) is just a uniform distr. over [0,1].
   - 
