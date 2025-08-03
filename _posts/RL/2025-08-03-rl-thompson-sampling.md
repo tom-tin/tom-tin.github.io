@@ -16,7 +16,7 @@ categories: [reinforcement learning, Thompson Sampling]
 - Parameters of Beta distr.
   - $\alpha$: number of "successes" seen so far.
   - $\beta$: number of "failure" seen so far.
-  - Mean $\mu$
+  - Mean $\mu = \frac{\alpha}{\alpha + \beta}$
 - Process:
   - Initialize each arm with $\alpha=1$, $\beta=1$. Then, a Beta(1,1) is just a uniform distr. over [0,1].
   - 
