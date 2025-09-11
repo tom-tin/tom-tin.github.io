@@ -86,6 +86,14 @@ from
   cte
 group by num_posts
 ~~~
-5. 
-6.   
+
+5. Find the top 10 most frequently performed activities by users.
+- `users(user_id, user_name, join_date)`
+- `activity(activity_id, user_id, activity_type, activity_date)`
+- `transactions(transaction_id, user_id, amount, transaction_date)`
+
+6. Calculate the average transaction amount for each user over the past year?
+7. Find users who haven't logged in during the last 30 days.
+
+8. Identify the day of the week with the highest volume of transactions?   
 
