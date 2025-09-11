@@ -125,8 +125,11 @@ categories: [data, resources, interviews, DS]
  * If we were to repeate approach 1 over and over different groups of people, would the effect be still bias? No, as we repeat more and more it is an unbiased estimator.
 * Prob:
  * Assume the distribution of children per family is given by: 
-  num_children     0 |       1 |      2 |       3 |      4 |      >=5 
-  p              0.3 |    0.25 |    0.2 |    0.15 |    0.1 |        0 
+
+num_children     0 |       1 |      2 |       3 |      4 |      >=5 
+
+p              0.3 |    0.25 |    0.2 |    0.15 |    0.1 |        0 
+
  * Consider a random girl in the population of children. What's the probability that she has a sister?
 
 
