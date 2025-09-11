@@ -126,15 +126,17 @@ categories: [data, resources, interviews, DS]
 * Prob:
  * Assume the distribution of children per family is given by: 
 
-num_children     0 |       1 |      2 |       3 |      4 |      >=5 
-
-p              0.3 |    0.25 |    0.2 |    0.15 |    0.1 |        0 
-
-| children | 0 | 1 | 2 | 3 | 4 | >=5 |
+| n_children | 0 | 1 | 2 | 3 | 4 | >=5 |
 |---|---|---|---|---|---|---|
 | p | 0.3 | 0.25 | 0.2 | 0.15 | 0.1 | 0 |
 
  * Consider a random girl in the population of children. What's the probability that she has a sister?
+  * A = event: a random girl has a sister
+  * P(A) = P(2sib) * P(A|2sib) + P(3sib) * P(A|3sib) + P(4sib) * P(A|4sib)
+  * P(A|2sib) = 1/2, P(A|3sib) = 3/4, P(A|4sib) = 7/8
+  * P(2sib) = (0.2*2) / (0.25*1 + 0.2*2 + 0.15*3 + 0.1*4)
+  * P(3sib) = (0.15*3) / (0.25*1 + 0.2*2 + 0.15*3 + 0.1*4)
+  * P(4sib) = (0.1*4) / (0.25*1 + 0.2*2 + 0.15*3 + 0.1*4) 
 
 
 ## Q - ML
