@@ -130,6 +130,10 @@ num_children     0 |       1 |      2 |       3 |      4 |      >=5
 
 p              0.3 |    0.25 |    0.2 |    0.15 |    0.1 |        0 
 
+| children | 0 | 1 | 2 | 3 | 4 | >=5 |
+|---|---|---|---|---|---|---|
+| p | 0.3 | 0.25 | 0.2 | 0.15 | 0.1 | 0 |
+
  * Consider a random girl in the population of children. What's the probability that she has a sister?
 
 
