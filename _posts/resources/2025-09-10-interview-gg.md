@@ -113,6 +113,22 @@ categories: [data, resources, interviews, DS]
 * How would you determine the sample size required for an A/B test at Google?
 * What is p-value, and how would you interpret it in the context of an A/B test result?
 * Explain the concept of confidence intervals and how they are useful in making business decisions.
+* Basic:
+ * Given a sample with 100 obs, with sample mean = 100, se = 3. Note that se of that sample mean is: std / sqrt(n) = std / 10.
+  * What is se? It's the std of the sampling distribution. Meaning the distribution we get when we repeat the above sampling process.
+  * What assumption do we need to get the above se formula? The sample size needs to be large enough so that the CLT applies and hence the sampling distr. is Normal.
+  * What is the formula for the se of the sample median? Usually we don't have a close form for that, but we can use boostrap method. I think another answer is in case n is large enough, the sampling distr is Normal hence we have the same sample mean and sample median --> same se as well.
+* Experiments:
+ * Given 2 approaches on measuring an effect of a drug on human, comment on their strengths/weaknesses.
+  * Approach 1: Divide a group of 100 people: group A take the drug, group B take the placebo, measure the effects on both group such as heart rate.
+  * Approach 2: Let all 100 ppl take the placebo without telling them. After 2 weeks, let them take the drug and measure the effect.
+ * If we were to repeate approach 1 over and over different groups of people, would the effect be still bias? No, as we repeat more and more it is an unbiased estimator.
+* Prob:
+ * Assume the distribution of children per family is given by: 
+  num_children     0 |       1 |      2 |       3 |      4 |      >=5 
+  p              0.3 |    0.25 |    0.2 |    0.15 |    0.1 |        0 
+ * Consider a random girl in the population of children. What's the probability that she has a sister?
+
 
 ## Q - ML
 * Notes:
